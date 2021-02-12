@@ -317,11 +317,17 @@ input {
 
 :root { /* The background-color on the body element won't spread over the entire page for some reason. */
   background-color: white;
+  height: 100%;
 }
 
 body {
   color: black;
   font-family: 'Roboto'; /* See _document.js */
+  height: 100%;
+}
+
+#__next {
+  height: 100%;
 }
 
 `;
